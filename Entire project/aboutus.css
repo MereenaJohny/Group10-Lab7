@@ -1,0 +1,53 @@
+
+* {
+    box-sizing: border-box;
+ }
+
+ body{
+   width: 100%;
+   height: 100%;
+   background-image: url(about.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   position: relative;
+   overflow-y: auto;
+}
+
+ main {
+    max-width: 1000px;
+    margin: auto;
+ }
+ img {
+    width: 100%;
+ }
+ .Container {
+    margin: 16px -20px;
+ }
+ .Container,
+ .Container > .Image {
+    padding: 8px;
+ }
+ .Image {
+    float: left;
+    width: 25%;
+ }
+ .Container:after {
+    content: "";
+    display: table;
+    clear: both;
+ }
+ .Content {
+    background-color: white;
+    padding: 10px;
+ }
+ @media screen and (max-width: 900px) {
+ .Image {
+    width: 50%;
+ }
+ }
+ @media screen and (max-width: 600px) {
+ .Image {
+    width: 100%;
+ }
+ }
+ 

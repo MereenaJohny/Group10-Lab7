@@ -1,0 +1,36 @@
+
+h1{
+    color: white;
+    text-align: center;
+
+}
+
+body{
+
+    background-image: url(background.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+    position: relative;
+
+}
+p {
+ text-indent: 100px;
+  text-align: left;
+  letter-spacing: 2px;
+  color: white;
+  
+}
+.grid-container {
+  display: grid;
+  grid-gap: 30px 60px;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+
+.grid-item { 
+  border: 1px (0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
